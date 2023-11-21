@@ -37,6 +37,8 @@ public class Main {
 
                 System.out.println("Ingrese el procesador del telefono: ");
                 String procesador = sc.nextLine();
+                Producto telefono = new Telefono(nombrePro,descripcion,cantidad,precio,procesador,ram,modelo);
+
 
 
 
